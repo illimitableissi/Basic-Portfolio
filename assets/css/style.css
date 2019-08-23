@@ -49,11 +49,12 @@ button {
         font-size: 16px;
       }
 
+
 .Message{
-    background-color: #ffffff;
-    margin: 10px;
+    padding: 50px;
+    margin: 50px 50px -100px 100px;
     border: 10px;
-    padding: 14px
+    background-color: #ffffff
 }
 
 .Links{
@@ -69,8 +70,15 @@ img{
 }
 
 input{
-    width: 500px;
+    width: 700px;
     padding: 5px
+}
+
+textarea{
+    resize: none;
+    padding: 5px;
+    width: 700px;
+    height: 200px
 }
 
 .AboutMe{
@@ -87,9 +95,13 @@ input{
 }
 
 a:link {
-    color: red
+    color: red;
 }
 
 a:visited {
      color: green;
+}
+
+input{
+    margin: 5px 5px 10px 0px
 }
