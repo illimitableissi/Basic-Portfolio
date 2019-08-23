@@ -2,7 +2,7 @@ header{
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #ffffff;
     border-color: #cccccc;
-    margin:10px;
+    margin:0px 0px 10px 0px;
     width: 100%;
     }
 
@@ -36,7 +36,7 @@ body{
     background-color: #ffffff;
     border-color: #dddddd;
     color: #777777;
-    background-image: url(../images/memphis-mini-dark.png)
+    background-image: url(../images/fishnets-and-hearts.png)
 }
 
 button {
@@ -62,12 +62,6 @@ button {
     margin: 0px 23% 0px 0px
 }
 
-img{
-    height: 300px;
-    width: 250px;
-    float: left;
-    margin: 20px
-}
 
 input{
     width: 700px;
@@ -85,23 +79,51 @@ textarea{
     padding: 50px;
     margin: 50px 50px -100px 100px;
     border: 10px;
-    background-color: #ffffff
+    background-color: #ffffff;
+}
+
+a:visited {
+     color: #777777;
+}
+
+input{
+    margin: 5px 5px 10px 0px
+}
+
+.container {
+    position: relative;
+    width: 35%;
+    margin: 10px;
+    float:left;
+}
+
+.container img{
+    width:100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    bottom: -9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 100%
+}
+.container .btn:hover {
+  background-color: black;
+}
+
+
+#MyFace{
+    height: 300px;
+    width: 250px;
+    margin: 20px;
+    float: left
 }
 
 .content{
     width: 960px;
     margin-left: 250px;
     min-height: calc(100vh - 70px);
-}
-
-a:link {
-    color: red;
-}
-
-a:visited {
-     color: green;
-}
-
-input{
-    margin: 5px 5px 10px 0px
 }
