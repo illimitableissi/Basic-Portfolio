@@ -94,7 +94,8 @@ input{
     position: relative;
     width: 35%;
     margin: 10px;
-    float:left;
+    float: left; 
+/* Cant get images to stay in white space */
 }
 
 .container img{
